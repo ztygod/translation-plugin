@@ -71,14 +71,14 @@
 ```
 smart-translator/
 │── manifest.json           # 插件配置文件（MV3）
-│── background.js           # 后台脚本，管理 API 请求
-│── content.js              # 内容脚本，监听划词
-│── popup/
-│   ├── index.html          # Popup 页面
+|── scripts                 # 脚本
+|   │── background.js           # 后台脚本，管理 API 请求
+|   │── content.js              # 内容脚本，监听划词
+│── src/
 │   ├── main.js             # Vue3 入口文件
 │   ├── App.vue             # Vue3 根组件
 │── assets/                 # 存放图标等资源
-│── styles.css              # 样式文件
+├── index.html              # Popup 页面
 │── package.json            # 依赖管理
 │── vite.config.js          # Vite 配置（用于构建 Vue3）
 ```
